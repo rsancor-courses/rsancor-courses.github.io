@@ -13,11 +13,16 @@ Preview locally: `python3 -m http.server -d docs`, then open http://localhost:80
 
 ## Publish a course
 
-In **both** `docs/index.html` and `docs/es/index.html`:
+All four courses are forthcoming for now. To publish one, in **both** `docs/index.html` and `docs/es/index.html`:
 
-1. Change its `<div class="cover soon">` to `<a class="cover ml" href="machine-learning/">` (`../machine-learning/` in `es/`). Classes: `ai`, `ml`, `ds`, `gd`.
-2. Change `Forthcoming` / `Próximamente` in its spine to the academic year, and add the links below the cover by copying the Intro AI `<nav class="parts">`.
+1. Change its `<div class="cover soon">` to `<a class="cover ai" href="intro-ai/">` (`../intro-ai/` in `es/`), and its closing `</div>` to `</a>`. Classes: `ai`, `ml`, `ds`, `gd`; folders: `intro-ai`, `machine-learning`, `data-science`, `ediv`.
+2. Change `Forthcoming` / `Próximamente` in its spine to the academic year (e.g. `2026/27`).
+3. Add the links right after the cover (Spanish labels: Teoría, Ejercicios, Exámenes; prefix `../` in `es/`):
+
+   ```html
+   <nav class="parts" aria-label="Introduction to Artificial Intelligence"><a href="intro-ai/theory/">Theory</a><a href="intro-ai/exercises/">Exercises</a><a href="intro-ai/exams/">Past exams</a></nav>
+   ```
+
+   Only link routes the course site really has.
 
 Each course site lives in its own repo in the org (`intro-ai`, `machine-learning`, `data-science`, `ediv`), served at `/<repo>/`.
-
-The Intro AI links assume the course site exposes `theory/`, `exercises/` and `exams/` under `/intro-ai/`. Keep those routes in that site, or change the links here; publish this hub only once `/intro-ai/` is live.
