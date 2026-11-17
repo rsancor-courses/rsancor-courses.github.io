@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T12:22:53+00:00",
+  "title": "Design System: Rubén Sánchez Corcuera · Courses",
+  "extensions": {
+    "colorMeta": {
+      "course-ai": {
+        "role": "primary",
+        "displayName": "Deusto Blue",
+        "canonical": "oklch(54.9% 0.191 259)",
+        "tonalRamp": [
+          "#040b19",
+          "#00215d",
+          "#0038a8",
+          "#045fd1",
+          "#3685fa",
+          "#67adff",
+          "#abd3ff",
+          "#e1f0ff"
+        ]
+      },
+      "course-ml": {
+        "role": "secondary",
+        "displayName": "Pine",
+        "canonical": "oklch(46.6% 0.094 165)",
+        "tonalRamp": [
+          "#050d09",
+          "#002f1f",
+          "#005438",
+          "#227758",
+          "#4b9b7a",
+          "#79bfa0",
+          "#b5dbc9",
+          "#e5f2ec"
+        ]
+      },
+      "course-ds": {
+        "role": "secondary",
+        "displayName": "Burnt Sienna",
+        "canonical": "oklch(53.2% 0.128 50)",
+        "tonalRamp": [
+          "#130804",
+          "#431800",
+          "#772800",
+          "#9e4b10",
+          "#c56f3c",
+          "#e8986b",
+          "#f4c6ac",
+          "#fcebe1"
+        ]
+      },
+      "course-ediv": {
+        "role": "secondary",
+        "displayName": "Royal Violet",
+        "canonical": "oklch(44.0% 0.176 305)",
+        "tonalRamp": [
+          "#0e0816",
+          "#33124f",
+          "#5c1a8e",
+          "#7e42b5",
+          "#a268dd",
+          "#c592fd",
+          "#dec3ff",
+          "#f3eaff"
+        ]
+      },
+      "cool-ground": {
+        "role": "neutral",
+        "displayName": "Cool Ground",
+        "canonical": "oklch(97.0% 0.003 265)",
+        "tonalRamp": [
+          "#070b14",
+          "#212631",
+          "#3f4551",
+          "#606673",
+          "#838997",
+          "#a7aebc",
+          "#cad1e0",
+          "#edeef0"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(20.4% 0.022 264)",
+        "tonalRamp": [
+          "#070b14",
+          "#212631",
+          "#3f4551",
+          "#606673",
+          "#838997",
+          "#a7aebc",
+          "#cad1e0",
+          "#e7effe"
+        ]
+      },
+      "body-text": {
+        "role": "neutral",
+        "displayName": "Body Text",
+        "canonical": "oklch(28.4% 0.024 261)",
+        "tonalRamp": [
+          "#070b14",
+          "#212631",
+          "#3f4551",
+          "#606673",
+          "#838997",
+          "#a7aebc",
+          "#cad1e0",
+          "#edeef0"
+        ]
+      },
+      "muted-slate": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "oklch(49.5% 0.026 263)",
+        "tonalRamp": [
+          "#070b14",
+          "#212631",
+          "#3f4551",
+          "#606673",
+          "#838997",
+          "#a7aebc",
+          "#cad1e0",
+          "#edeef0"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(89.7% 0.010 262)",
+        "tonalRamp": [
+          "#070b14",
+          "#212631",
+          "#3f4551",
+          "#606673",
+          "#838997",
+          "#a7aebc",
+          "#cad1e0",
+          "#edeef0"
+        ]
+      },
+      "pencil-grey": {
+        "role": "neutral",
+        "displayName": "Pencil Grey",
+        "canonical": "oklch(83.7% 0.014 258)",
+        "tonalRamp": [
+          "#070b14",
+          "#212631",
+          "#3f4551",
+          "#606673",
+          "#838997",
+          "#a7aebc",
+          "#cad1e0",
+          "#edeef0"
+        ]
+      },
+      "paper-white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "#070b14",
+          "#212631",
+          "#3f4551",
+          "#606673",
+          "#838997",
+          "#a7aebc",
+          "#cad1e0",
+          "#edeef0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page title only; 56px under 520px."
+      },
+      "headline": {
+        "displayName": "Cover Title",
+        "purpose": "Course title on a cover; weight 500 when forthcoming."
+      },
+      "title": {
+        "displayName": "Section Title",
+        "purpose": "Colophon heading."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "Lecturer's name in the header."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Intro sentence, max 46ch; also the email link size."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, max 56ch."
+      },
+      "link": {
+        "displayName": "Link",
+        "purpose": "Course part links; language switch at 14px."
+      },
+      "fine": {
+        "displayName": "Fine Print",
+        "purpose": "Licence and disclaimer."
+      },
+      "label": {
+        "displayName": "Spine Label",
+        "purpose": "Cover spine: language, year or Forthcoming."
+      }
+    },
+    "shadows": [
+      {
+        "name": "volume-rest",
+        "value": "inset 6px 0 0 rgba(0,0,0,.18), 0 2px 4px rgba(18,23,33,.12), 0 18px 34px -18px rgba(18,23,33,.5)",
+        "purpose": "Published cover at rest: spine strip, contact shadow, long drop."
+      },
+      {
+        "name": "volume-lifted",
+        "value": "inset 6px 0 0 rgba(0,0,0,.18), 0 2px 4px rgba(18,23,33,.12), 0 30px 44px -20px rgba(18,23,33,.55)",
+        "purpose": "Published cover on hover, with translateY(-6px) rotate(-.6deg)."
+      },
+      {
+        "name": "outline-forthcoming",
+        "value": "inset 0 0 0 1.5px #d9dde4",
+        "purpose": "Forthcoming cover outline (not depth)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Cover lift and every drawing replay."
+      },
+      {
+        "name": "cover-lift",
+        "value": "0.35s",
+        "purpose": "Hover lift and tilt."
+      },
+      {
+        "name": "draw",
+        "value": "0.7s default, 1-1.4s for fitted curves and walks",
+        "purpose": "Stroke drawn via dashoffset, staggered by --d."
+      },
+      {
+        "name": "pop",
+        "value": "0.45s",
+        "purpose": "Points and numerals scale in from 0.2."
+      },
+      {
+        "name": "grow",
+        "value": "0.6s",
+        "purpose": "Histogram bars scale up from the baseline."
+      },
+      {
+        "name": "replay-stagger",
+        "value": "220ms per cover",
+        "purpose": "First-view replay order across the shelf, at 60% visibility."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Finished drawing shown, no transitions or replays."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "two-up",
+        "value": "900px"
+      },
+      {
+        "name": "single",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Published Course Cover",
+      "kind": "card",
+      "refersTo": "cover-published",
+      "description": "A live course as a solid-colour volume with its white subject drawing; lifts and tilts on hover.",
+      "html": "<a class=\"ds-cover\" href=\"#\"><h3>Introduction to Artificial Intelligence</h3><svg class=\"ds-motif\" viewBox=\"0 0 200 116\" aria-hidden=\"true\"><path class=\"s\" d=\"M100 16 L45 52 M100 16 L155 52 M45 52 L22 92 M45 52 L68 92 M155 52 L132 92\"/><rect class=\"s\" x=\"13\" y=\"92\" width=\"18\" height=\"16\"/><rect class=\"s\" x=\"59\" y=\"92\" width=\"18\" height=\"16\"/><rect class=\"s\" x=\"123\" y=\"92\" width=\"18\" height=\"16\"/><circle class=\"s\" cx=\"45\" cy=\"52\" r=\"11\"/><circle class=\"s\" cx=\"155\" cy=\"52\" r=\"11\"/><circle class=\"f\" cx=\"100\" cy=\"16\" r=\"10\"/></svg><div class=\"ds-spine\"><span>EN</span><span>2026/27</span></div></a>",
+      "css": ":host{--ground:#f4f5f7;--ink:#121721;--text:#232a36;--muted:#5a6271;--line:#d9dde4;--sketch:#c4cad3;--ai:#196bde;--ml:#0d6a4c;--ds:#a5521a;--gd:#6a2c9e;--ease:cubic-bezier(.16,1,.3,1)} .ds-cover{position:relative;width:220px;aspect-ratio:3/4;border-radius:2px 6px 6px 2px;color:#fff;padding:18px 18px 16px;display:flex;flex-direction:column;text-decoration:none;overflow:hidden;background:var(--ai);box-shadow:inset 6px 0 0 rgba(0,0,0,.18),0 2px 4px rgba(18,23,33,.12),0 18px 34px -18px rgba(18,23,33,.5);transition:transform .35s var(--ease),box-shadow .35s} .ds-cover:hover{transform:translateY(-6px) rotate(-.6deg);box-shadow:inset 6px 0 0 rgba(0,0,0,.18),0 2px 4px rgba(18,23,33,.12),0 30px 44px -20px rgba(18,23,33,.55)} .ds-cover:focus-visible{outline:2px solid var(--ink);outline-offset:4px} .ds-cover h3{font:800 34px/.95 'Archivo',sans-serif;font-stretch:70%;margin:14px 0 0;letter-spacing:-.005em} .ds-motif{margin-top:auto;width:100%;height:auto} .ds-motif .s{fill:none;stroke:#fff;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round} .ds-motif .f{fill:#fff} .ds-spine{display:flex;justify-content:space-between;font:600 12px/1 'Archivo',sans-serif;letter-spacing:.08em;border-top:1px solid rgba(255,255,255,.45);padding-top:10px;margin-top:12px}"
+    },
+    {
+      "name": "Forthcoming Course Cover",
+      "kind": "card",
+      "refersTo": "cover-forthcoming",
+      "description": "A course in preparation: grey outline, no colour, no link, no motion.",
+      "html": "<div class=\"ds-cover ds-soon\"><h3>Machine Learning</h3><svg class=\"ds-motif\" viewBox=\"0 0 200 116\" aria-hidden=\"true\"><path class=\"s\" d=\"M100 16 L45 52 M100 16 L155 52 M45 52 L22 92 M45 52 L68 92 M155 52 L132 92\"/><rect class=\"s\" x=\"13\" y=\"92\" width=\"18\" height=\"16\"/><rect class=\"s\" x=\"59\" y=\"92\" width=\"18\" height=\"16\"/><rect class=\"s\" x=\"123\" y=\"92\" width=\"18\" height=\"16\"/><circle class=\"s\" cx=\"45\" cy=\"52\" r=\"11\"/><circle class=\"s\" cx=\"155\" cy=\"52\" r=\"11\"/><circle class=\"f\" cx=\"100\" cy=\"16\" r=\"10\"/></svg><div class=\"ds-spine\"><span>EN</span><span>Forthcoming</span></div></div>",
+      "css": ":host{--ground:#f4f5f7;--ink:#121721;--text:#232a36;--muted:#5a6271;--line:#d9dde4;--sketch:#c4cad3;--ai:#196bde;--ml:#0d6a4c;--ds:#a5521a;--gd:#6a2c9e;--ease:cubic-bezier(.16,1,.3,1)} .ds-cover{position:relative;width:220px;aspect-ratio:3/4;border-radius:2px 6px 6px 2px;color:#fff;padding:18px 18px 16px;display:flex;flex-direction:column;text-decoration:none;overflow:hidden;background:var(--ai);box-shadow:inset 6px 0 0 rgba(0,0,0,.18),0 2px 4px rgba(18,23,33,.12),0 18px 34px -18px rgba(18,23,33,.5);transition:transform .35s var(--ease),box-shadow .35s} .ds-cover:hover{transform:translateY(-6px) rotate(-.6deg);box-shadow:inset 6px 0 0 rgba(0,0,0,.18),0 2px 4px rgba(18,23,33,.12),0 30px 44px -20px rgba(18,23,33,.55)} .ds-cover:focus-visible{outline:2px solid var(--ink);outline-offset:4px} .ds-cover h3{font:800 34px/.95 'Archivo',sans-serif;font-stretch:70%;margin:14px 0 0;letter-spacing:-.005em} .ds-motif{margin-top:auto;width:100%;height:auto} .ds-motif .s{fill:none;stroke:#fff;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round} .ds-motif .f{fill:#fff} .ds-spine{display:flex;justify-content:space-between;font:600 12px/1 'Archivo',sans-serif;letter-spacing:.08em;border-top:1px solid rgba(255,255,255,.45);padding-top:10px;margin-top:12px} .ds-soon{background:transparent;color:var(--muted);box-shadow:inset 0 0 0 1.5px var(--line)} .ds-soon:hover{transform:none;box-shadow:inset 0 0 0 1.5px var(--line)} .ds-soon h3{font-weight:500} .ds-soon .ds-motif .s{stroke:var(--sketch)} .ds-soon .ds-motif .f{fill:var(--sketch)} .ds-soon .ds-spine{border-color:var(--line)}"
+    },
+    {
+      "name": "Course Part Links",
+      "kind": "nav",
+      "refersTo": "part-link",
+      "description": "Theory / Exercises / Past exams under a published cover.",
+      "html": "<nav class=\"ds-parts\"><a href=\"#\">Theory</a><a href=\"#\">Exercises</a><a href=\"#\">Past exams</a></nav>",
+      "css": ":host{--ground:#f4f5f7;--ink:#121721;--text:#232a36;--muted:#5a6271;--line:#d9dde4;--sketch:#c4cad3;--ai:#196bde;--ml:#0d6a4c;--ds:#a5521a;--gd:#6a2c9e;--ease:cubic-bezier(.16,1,.3,1)} .ds-parts{display:flex;flex-wrap:wrap;gap:6px 16px;font:600 15px/1.55 'Source Sans 3',sans-serif;color:var(--ink)} .ds-parts a{color:inherit;text-decoration:none;border-bottom:1.5px solid var(--line);transition:border-color .2s} .ds-parts a:hover{border-color:var(--ink)} .ds-parts a:focus-visible{outline:2px solid var(--ink);outline-offset:4px;border-radius:2px}"
+    },
+    {
+      "name": "Language Switch",
+      "kind": "nav",
+      "refersTo": "lang-switch-current",
+      "description": "EN / ES; the current language is an Ink chip.",
+      "html": "<nav class=\"ds-lang\"><a href=\"#\" aria-current=\"page\">EN</a><a href=\"#\">ES</a></nav>",
+      "css": ":host{--ground:#f4f5f7;--ink:#121721;--text:#232a36;--muted:#5a6271;--line:#d9dde4;--sketch:#c4cad3;--ai:#196bde;--ml:#0d6a4c;--ds:#a5521a;--gd:#6a2c9e;--ease:cubic-bezier(.16,1,.3,1)} .ds-lang{display:flex;gap:4px;font:600 14px/1.55 'Source Sans 3',sans-serif} .ds-lang a{padding:6px 10px;text-decoration:none;color:var(--muted);border-radius:4px} .ds-lang a:hover{color:var(--ink)} .ds-lang a[aria-current]{background:var(--ink);color:#fff} .ds-lang a:focus-visible{outline:2px solid var(--ink);outline-offset:4px}"
+    },
+    {
+      "name": "Colophon Contact",
+      "kind": "custom",
+      "refersTo": "contact-mail",
+      "description": "Email leads in Deusto Blue; profile links in Ink with hover underline.",
+      "html": "<div class=\"ds-contact\"><a class=\"ds-mail\" href=\"#\">name@deusto.es</a><a href=\"#\">Deusto profile</a><a href=\"#\">Google Scholar</a><a href=\"#\">ORCID</a></div>",
+      "css": ":host{--ground:#f4f5f7;--ink:#121721;--text:#232a36;--muted:#5a6271;--line:#d9dde4;--sketch:#c4cad3;--ai:#196bde;--ml:#0d6a4c;--ds:#a5521a;--gd:#6a2c9e;--ease:cubic-bezier(.16,1,.3,1)} .ds-contact{font:400 17px/1.55 'Source Sans 3',sans-serif} .ds-contact a{display:block;width:max-content;font-weight:600;color:var(--ink);margin-bottom:6px;text-decoration:none;border-bottom:1.5px solid transparent} .ds-contact a:hover{border-color:var(--ink)} .ds-contact a.ds-mail{font-size:19px;color:var(--ai);border-color:currentColor} .ds-contact a:focus-visible{outline:2px solid var(--ink);outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Series Shelf",
+    "overview": "Every course is a volume in one series, and the catalog is the shelf they stand on. A published course is a solid-colour book cover in its own identity colour, with a white line drawing of its subject; a course in preparation is the same volume left as a grey outline. The ground is a cool, quiet grey so the covers carry all the colour on the page.\n\nDensity is low and the page is short: a condensed display title, one lede, four covers, a colophon. Type does the structural work (Archivo condensed for anything that names a thing, Source Sans 3 for anything read), and depth exists only where a physical book would have it. The course colours are not decoration of this page; they are each course's identity and travel with it to its own Quarto site.",
+    "keyCharacteristics": [
+      "One solid identity colour per published course, used as the whole cover, never as an accent sprinkle.",
+      "Cool grey ground and near-black ink; no other hues outside the course set.",
+      "Condensed Archivo at heavy weight for names; Source Sans 3 for reading.",
+      "White single-weight line drawings of each subject, which replay how they were drawn.",
+      "Forthcoming volumes are grey outlines: no colour, no links, no motion."
+    ],
+    "rules": [
+      {
+        "name": "The One Course, One Colour Rule",
+        "body": "Each course owns exactly one colour, used as its full cover here and as its identity on its course site. A new course gets a new hue of similar depth (white text must pass AA on it); it never borrows another course's colour or a tint of one.",
+        "section": "colors"
+      },
+      {
+        "name": "The Earned Colour Rule",
+        "body": "A course shows its colour only once it is published. Until then its cover is a 1.5px Hairline outline with Muted Slate type and a Pencil Grey drawing.",
+        "section": "colors"
+      },
+      {
+        "name": "The Spine Type Rule",
+        "body": "Archivo names (titles, brand, spine, drawing numerals); Source Sans 3 explains. Never set reading text in Archivo or a title in Source Sans 3.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only Books Have Depth Rule",
+        "body": "Shadows belong to covers. Header, links, colophon and forthcoming outlines stay flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do give each published course its full cover in its own identity colour, with all type and line work in Paper White.",
+      "Do draw a course's subject in single-weight white strokes on a 200 by 116 canvas, and make its replay show how the result is reached, ending on the finished drawing.",
+      "Do keep forthcoming courses as Hairline outlines with Pencil Grey drawings, no links, no motion.",
+      "Do set names in condensed heavy Archivo and reading text in Source Sans 3.",
+      "Do keep the email link as the one Deusto Blue element outside a cover."
+    ],
+    "donts": [
+      "Don't put a course colour on a course that is not published, or reuse one course's colour for another.",
+      "Don't add shadows to anything other than a published cover.",
+      "Don't add a generic icon-card grid; a course is a volume, not a card with an icon.",
+      "Don't use official University of Deusto branding or marks; the site is personal and says so."
+    ]
+  }
+}

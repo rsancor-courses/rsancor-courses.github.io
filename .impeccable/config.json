@@ -1,0 +1,38 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "sans 3\",system-ui,sans-serif",
+        "createdAt": "2026-11-17T12:23:51.950Z",
+        "reason": "Claude: false positive, Source Sans 3 is declared in DESIGN.md typography; detector splits the quoted family name"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "6px",
+        "createdAt": "2026-11-17T12:23:51.969Z",
+        "reason": "Claude: 6px is the outer corner of the documented book-cover radius (2px 6px 6px 2px) in DESIGN.md"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "56px",
+        "createdAt": "2026-11-17T12:23:51.984Z",
+        "reason": "Claude: shipped <=520px breakpoint sizes for display title / cover headline / forthcoming cover headline, recorded by the documenter from hub.css"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "32px",
+        "createdAt": "2026-11-17T12:23:51.998Z",
+        "reason": "Claude: shipped <=520px breakpoint sizes for display title / cover headline / forthcoming cover headline, recorded by the documenter from hub.css"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "26px",
+        "createdAt": "2026-11-17T12:23:52.013Z",
+        "reason": "Claude: shipped <=520px breakpoint sizes for display title / cover headline / forthcoming cover headline, recorded by the documenter from hub.css"
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rubén Sánchez Corcuera · Courses</title>
+<meta name="description" content="Open course material by Rubén Sánchez Corcuera (University of Deusto): theory, solved exercises and solved past exams.">
+<meta name="theme-color" content="#f4f5f7">
+<link rel="alternate" hreflang="en" href="https://rsancor-courses.github.io/">
+<link rel="alternate" hreflang="es" href="https://rsancor-courses.github.io/es/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='3' width='21' height='26' rx='2' fill='%23196bde'/%3E%3Crect x='6' y='3' width='3' height='26' fill='%23124fa6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/hub.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="./">Rubén Sánchez Corcuera</a>
+    <nav class="lang" aria-label="Language"><a href="./" aria-current="page">EN</a><a href="es/" lang="es" hreflang="es">ES</a></nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>Open course material</h1>
+      <p class="lede">Theory, solved exercises and solved past exams for the courses I teach at the University of Deusto.
+        <small>Grades, submissions and announcements stay in ALUD.</small></p>
+    </section>
+
+    <h2 class="sr">Courses</h2>
+    <!-- To publish a course: turn its <div class="cover soon"> into <a class="cover {ai|ml|ds|gd}" href="...">,
+         and add the links below it, as in Intro AI. Do the same in es/index.html. -->
+    <section class="shelf" aria-label="Courses">
+      <!-- Intro AI: minimax, leaf values rise to the root and one branch is pruned -->
+      <div class="vol">
+        <a class="cover ai" href="intro-ai/">
+          <h3>Introduction to Artificial Intelligence</h3>
+          <svg class="motif" viewBox="0 0 200 116" aria-hidden="true">
+            <path class="s draw" style="--len:70;--d:.05s" d="M100 16 L45 52"/><path class="s draw" style="--len:70;--d:.05s" d="M100 16 L155 52"/>
+            <path class="s draw" style="--len:50;--d:.25s" d="M45 52 L22 92"/><path class="s draw" style="--len:50;--d:.25s" d="M45 52 L68 92"/>
+            <path class="s draw" style="--len:50;--d:.25s" d="M155 52 L132 92"/>
+            <path class="s prune dim" stroke-dasharray="3 4" d="M155 52 L178 92"/>
+            <rect class="h" x="13" y="92" width="18" height="16"/><rect class="h" x="59" y="92" width="18" height="16"/><rect class="h" x="123" y="92" width="18" height="16"/><rect class="h dim prune" x="169" y="92" width="18" height="16"/>
+            <text class="pop" style="--d:.55s" x="22" y="104">3</text><text class="pop" style="--d:.65s" x="68" y="104">12</text><text class="pop" style="--d:.75s" x="132" y="104">2</text><text class="dim prune" x="178" y="104">?</text>
+            <circle class="h" style="fill:var(--ai)" cx="45" cy="52" r="11"/><circle class="h" style="fill:var(--ai)" cx="155" cy="52" r="11"/>
+            <text class="pop" style="--d:1s" x="45" y="56">3</text><text class="pop" style="--d:1.15s" x="155" y="56">2</text>
+            <circle class="f pop" style="--d:1.4s" cx="100" cy="16" r="10"/>
+            <text class="pop" style="--d:1.5s;fill:var(--ai)" x="100" y="20">3</text>
+          </svg>
+          <div class="spine"><span>EN</span><span>2026/27</span></div>
+        </a>
+        <nav class="parts" aria-label="Introduction to Artificial Intelligence"><a href="intro-ai/theory/">Theory</a><a href="intro-ai/exercises/">Exercises</a><a href="intro-ai/exams/">Past exams</a></nav>
+      </div>
+
+      <!-- ML: labelled points land, then the decision boundary is fitted between them -->
+      <div class="vol">
+        <div class="cover soon">
+          <h3>Machine Learning</h3>
+          <svg class="motif" viewBox="0 0 200 116" aria-hidden="true">
+            <circle class="f pop" style="--d:.0s" cx="36" cy="30" r="4.5"/><circle class="f pop" style="--d:.08s" cx="62" cy="52" r="4.5"/><circle class="f pop" style="--d:.16s" cx="28" cy="66" r="4.5"/>
+            <circle class="f pop" style="--d:.24s" cx="80" cy="22" r="4.5"/><circle class="f pop" style="--d:.32s" cx="54" cy="84" r="4.5"/>
+            <circle class="h pop" style="--d:.12s" cx="124" cy="82" r="4.5"/><circle class="h pop" style="--d:.2s" cx="152" cy="60" r="4.5"/><circle class="h pop" style="--d:.28s" cx="170" cy="94" r="4.5"/>
+            <circle class="h pop" style="--d:.36s" cx="108" cy="102" r="4.5"/><circle class="h pop" style="--d:.44s" cx="176" cy="36" r="4.5"/>
+            <path class="s draw bold" style="--len:230;--dur:1.1s;--d:.6s" d="M12 112 C70 104 76 40 118 34 C150 30 168 18 192 8"/>
+          </svg>
+          <div class="spine"><span>EN</span><span>Forthcoming</span></div>
+        </div>
+      </div>
+
+      <!-- DS: a histogram fills bar by bar, then the density estimate is drawn over it -->
+      <div class="vol">
+        <div class="cover soon">
+          <h3>Data Science</h3>
+          <svg class="motif" viewBox="0 0 200 116" aria-hidden="true">
+            <rect class="h grow" style="--d:0s" x="20" y="82" width="18" height="24"/><rect class="h grow" style="--d:.07s" x="42" y="58" width="18" height="48"/>
+            <rect class="h grow" style="--d:.14s" x="64" y="34" width="18" height="72"/><rect class="h grow" style="--d:.21s" x="86" y="24" width="18" height="82"/>
+            <rect class="h grow" style="--d:.28s" x="108" y="44" width="18" height="62"/><rect class="h grow" style="--d:.35s" x="130" y="68" width="18" height="38"/>
+            <rect class="h grow" style="--d:.42s" x="152" y="88" width="18" height="18"/>
+            <path class="s draw bold" style="--len:260;--dur:1s;--d:.7s" d="M10 104 C50 100 60 16 96 16 C132 16 140 100 186 104"/>
+            <path class="s" d="M10 107 L190 107"/>
+          </svg>
+          <div class="spine"><span>EN</span><span>Forthcoming</span></div>
+        </div>
+      </div>
+
+      <!-- EDiV: a token walks a path across an isometric level -->
+      <div class="vol">
+        <div class="cover soon">
+          <h3 lang="es">Estructura y Diseño de Videojuegos</h3>
+          <svg class="motif" viewBox="0 0 200 116" aria-hidden="true">
+            <path class="s dim" d="M100 12 L184 54 L100 96 L16 54 Z M58 33 L142 75 M142 33 L58 75 M37 43.5 L121 85.5 M79 22.5 L163 64.5 M163 43.5 L79 85.5 M121 22.5 L37 64.5"/>
+            <path class="f" d="M142 33 L163 43.5 L142 54 L121 43.5 Z"/>
+            <path class="s draw" style="--len:150;--dur:1.4s;stroke-width:3" d="M37 54 L58 64.5 L79 54 L100 64.5 L121 54 L142 43.5"/>
+            <circle class="f token" r="5.5" cx="0" cy="0" transform="translate(142 43.5)">
+              <animateMotion id="walk" dur="1.4s" begin="indefinite" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 1 .3 1" path="M37 54 L58 64.5 L79 54 L100 64.5 L121 54 L142 43.5"/>
+            </circle>
+          </svg>
+          <div class="spine"><span>ES</span><span>Forthcoming</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="colophon">
+    <h2>About</h2>
+    <div>
+      <p><b>Rubén Sánchez Corcuera</b>, University of Deusto, Bilbao.</p>
+      <p>Short bio to come.</p>
+      <p class="fine">Material licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> · Not an official University of Deusto website.</p>
+    </div>
+    <div class="contact">
+      <a class="mail" href="mailto:ruben.sanchez@deusto.es">ruben.sanchez@deusto.es</a>
+      <a href="#">Deusto profile</a><a href="#">Google Scholar</a><a href="#">ORCID</a><a href="#">LinkedIn</a>
+    </div>
+  </footer>
+</div>
+<script src="assets/hub.js"></script>
+</body>
+</html>

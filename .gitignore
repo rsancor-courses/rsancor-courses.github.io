@@ -1,0 +1,5 @@
+sketches/
+.DS_Store
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/hook.cache.json
